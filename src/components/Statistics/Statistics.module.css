@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #f38181;
+  border-radius: 16px;
+}
+
+.positive_container {
+  margin-top: 25px;
+  background-color: #fbfbfb;
+  border-radius: 16px;
+}
+
+.statItem {
+  font-size: 18px;
+  color: #fbfbfb;
+}
+.statItem_positive {
+  font-size: 18px;
+}
+
+.value {
+  font-weight: 600;
+}
