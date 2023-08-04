@@ -25,13 +25,9 @@ export const App = () => {
       case 'good':
         setGood(prev => prev + 1);
         break;
-    }
-    switch (option) {
       case 'neutral':
         setNeutral(prev => prev + 1);
         break;
-    }
-    switch (option) {
       case 'bad':
         setBad(prev => prev + 1);
         break;
